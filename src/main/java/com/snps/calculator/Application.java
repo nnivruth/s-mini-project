@@ -170,7 +170,7 @@ class Application {
      */
     private boolean isNumber(String val) {
         try {
-            log.debug("Checking if " + val + "is an integer or not");
+            log.debug("Checking if " + val + " is an integer or not");
             new BigInteger(val);
         } catch (NumberFormatException nfe) {
             return false;
